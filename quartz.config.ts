@@ -1,4 +1,4 @@
-import { QuartzConfig } from "./quartz/cfg"
+﻿import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
 
 /**
@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "heaversm.github.io/dft-pc",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
@@ -95,3 +95,4 @@ const config: QuartzConfig = {
 }
 
 export default config
+
