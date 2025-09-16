@@ -1,6 +1,7 @@
-﻿# One-step Quartz deploy (Windows) - mirrors Obsidian Public -> content, ensures homepage, pushes main
+# One-step Quartz deploy (Windows) - mirrors Obsidian Public -> content, ensures homepage, pushes main
 $ErrorActionPreference = 'Stop'
 Set-Location "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
+$env:GIT_SSH_COMMAND = 'ssh -o StrictHostKeyChecking=accept-new -o TCPKeepAlive=yes -o ServerAliveInterval=15 -o ServerAliveCountMax=12 -o IPQoS=throughput'
 
 # EDIT if your Public path changes:
 $PublicDir = "C:\Users\mheav\Documents\Sites\quartz\vault\dft-quartz-pc\Public"
