@@ -1,4 +1,4 @@
-Welcome to Quartz
+Welcome to Digital Futures Told
 
 Make a note of something, [[create a link]], or try [the Importer](https://help.obsidian.md/Plugins/Importer)!
 
